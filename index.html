@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Background images - fullPage.js</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage full-screen backgrounds." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,backgrounds,full-screen" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="./fullpage.min.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="examples.css" /> -->
+	<style>
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: 100% 100%;
+	}
+	.slide{
+		background-size: 100% 100%;
+	}
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(imgs/IMG_0409.JPG);
+		
+	}
+	
+	#section1{
+		background-image: url(imgs/IMG_0410.JPG);
+		padding: 6% 0 0 0;
+	}
+	#section2{
+		background-image: url(imgs/IMG_0412.JPG);
+		padding: 6% 0 0 0;
+	}
+	#section3{
+		background-image: url(imgs/IMG_0411.JPG);
+		padding: 6% 0 0 0;
+	}
+	#section4{
+		background-image: url(imgs/IMG_0407.JPG);
+		padding: 6% 0 0 0;
+	}
+	#section5{
+		background-image: url(imgs/IMG_0407.JPG);
+		padding: 6% 0 0 0;
+	}
+	#section6{
+		background-image: url(imgs/IMG_0407.JPG);
+		padding: 6% 0 0 0;
+	}
+	#section7{
+		background-image: url(imgs/IMG_0407.JPG);
+		padding: 6% 0 0 0;
+	}
+	#section8{
+		background-image: url(imgs/IMG_0407.JPG);
+		padding: 6% 0 0 0;
+	}
+	#section9{
+		background-image: url(imgs/IMG_0407.JPG);
+		padding: 6% 0 0 0;
+	}
+	
+	
+	
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section " id="section0"></div>
+	<div class="section" id="section1"></div>
+	<div class="section" id="section2"></div>
+	<div class="section" id="section3"></div>
+	<div class="section" id="section4"></div>
+	<div class="section" id="section5"></div>
+	<div class="section" id="section6"></div>
+	<div class="section" id="section7"></div>
+	<div class="section" id="section8"></div>
+	<div class="section" id="section9"></div>
+</div>
+
+
+<script type="text/javascript" src="./fullpage.min.js"></script>
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        verticalCentered: false,
+        licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
+    });
+</script>
+</body>
+</html>
